@@ -8,7 +8,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@radix-ui/react-dropdown-menu";
-import { DropdownMenuContent } from "@/components/ui/dropdown-menu";
+import { DropdownMenuContent } from "@/src/components/ui/dropdown-menu";
 import { deleteComment, editComment } from "@/src/apis/funcs/tasks";
 import { useMutation } from "@tanstack/react-query";
 import { toast } from "sonner";

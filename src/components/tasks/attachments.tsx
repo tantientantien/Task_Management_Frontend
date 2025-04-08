@@ -7,7 +7,7 @@ import {
   uploadAttachment,
 } from "@/src/apis/funcs/attachments";
 import { Download, Xmark } from "iconoir-react";
-import { Progress } from "@/components/ui/progress";
+import { Progress } from "@/src/components/ui/progress";
 import { toast } from "sonner";
 import { Attachment } from "@/src/types/tasks";
 

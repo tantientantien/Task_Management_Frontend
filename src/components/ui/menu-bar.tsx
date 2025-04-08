@@ -12,7 +12,7 @@ import {
   ListOrdered,
   Strikethrough,
 } from "lucide-react";
-import { Toggle } from "@/components/ui/toggle";
+import { Toggle } from "@/src/components/ui/toggle";
 import { Editor } from "@tiptap/react";
 
 export default function MenuBar({ editor }: { editor: Editor | null }) {

@@ -1,5 +1,5 @@
 import { Label } from "@/src/types/labels";
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/src/components/ui/badge";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -7,7 +7,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "@/src/components/ui/dropdown-menu";
 import { Circle, Plus, Xmark } from "iconoir-react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { addLabelToTask, createLabel, deleteLabel, deleteLabelFromTask, fetchLabels } from "@/src/apis/funcs/labels";

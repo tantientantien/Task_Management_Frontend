@@ -2,7 +2,7 @@ import React from "react";
 import { Clock, Trash, ChatLines, Attachment } from "iconoir-react";
 import { Task} from "@/src/types/tasks";
 import { useUserStore } from "@/src/hooks/use-user-store";
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/src/components/ui/badge";
 import tinycolor from "tinycolor2";
 import TaskDetail from "./task-detail";
 
