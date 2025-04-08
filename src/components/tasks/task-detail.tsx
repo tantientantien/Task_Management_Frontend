@@ -194,10 +194,10 @@ const TaskDetail: React.FC<TaskDetailProps> = ({ taskName, taskId }) => {
 
         <section className="flex flex-row justify-between gap-20">
           <div className="flex-1/3 max-h-[calc(85vh-120px)] overflow-y-auto">
-            {/* Phần attachment */}
+            {/* Attachment */}
             <Attachments taskId={taskId} />
 
-            {/* Phần mô tả task */}
+            {/* Task Description */}
             <Description
               description={tasks?.description}
               isEditing={isEditing}
@@ -206,7 +206,7 @@ const TaskDetail: React.FC<TaskDetailProps> = ({ taskName, taskId }) => {
               handleDescriptionSubmit={handleDescriptionSubmit}
             />
 
-            {/* Phần comment */}
+            {/* Comment */}
             <CommentSection
               comments={comment || []}
               userId={user.user?.id || ""}
@@ -217,12 +217,11 @@ const TaskDetail: React.FC<TaskDetailProps> = ({ taskName, taskId }) => {
 
           <div className="w-1/3">
             <div className="p-5 bg-gray-50 rounded-xl shadow-sm transition-all duration-300 hover:shadow-md">
-              {/* Tiêu đề Details */}
               <h2 className="text-lg font-semibold text-gray-800 mb-6">
                 Details
               </h2>
 
-              {/* Nội dung chi tiết */}
+              {/* Body */}
               <div className="flex flex-col gap-y-7 text-sm">
                 {/* Creator */}
                 <div className="flex items-center">
